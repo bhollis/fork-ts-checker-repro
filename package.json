@@ -1,0 +1,40 @@
+{
+  "name": "fork-ts-checker-repro",
+  "version": "1.0.0",
+  "description": "fork-ts-checker-repro",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bhollis/fork-ts-checker-repro.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-typescript": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "@types/react": "^16.3.10",
+    "babel-loader": "^8.0.2",
+    "css-loader": "^4.3.0",
+    "css-modules-typescript-loader": "^4.0.0",
+    "fork-ts-checker-notifier-webpack-plugin": "^3.0.0",
+    "fork-ts-checker-webpack-plugin": "^5.0.5",
+    "mini-css-extract-plugin": "^0.11.0",
+    "node-sass": "^4.9.0",
+    "react-hot-loader": "^4.13.0",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.0",
+    "typescript": "^4.0.2",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^3.0.0",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1"
+  }
+}
